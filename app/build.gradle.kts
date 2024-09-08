@@ -6,6 +6,9 @@ plugins {
 android {
     namespace = "com.example.weatherapp"
     compileSdk = 34
+    buildFeatures{
+        viewBinding = true
+    }
 
     defaultConfig {
         applicationId = "com.example.weatherapp"
@@ -48,6 +51,11 @@ dependencies {
 
     //lotie animation
     implementation("com.airbnb.android:lottie:6.5.1")
+    //Gson convertor
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    //retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
 
 
 }

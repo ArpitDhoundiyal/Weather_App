@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
 
         android:fontFamily="@font/merriweathersans_medium"
-        android:text="DESIGN  BY\n HBO"
+        android:text="DESIGN  BY\n  AD"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:layout_marginBottom="32dp"
